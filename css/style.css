@@ -1,18 +1,26 @@
-body {
-  margin: 0;
-  padding: 0;
+
+body{
+    
+    font-family: sans-serif;
 }
-body {
-  background-color: #bbbbbb;
-  color: black;
+h1{
+    color: aliceblue;
+    font-size: 40px;
+    background-color: #617700;
 }
- body {
-   background-color: white;
-   color:black;
- }
- h1 {
-   font-size: 200%;
- }
-section {
-      padding: 0 25px;
+p{
+    font-size: 20px;
 }
+h2{
+    color:aliceblue;
+    background-color: #617700;
+}
+h3{
+    color: aliceblue;
+    background-color: #617700;
+
+}
+a{
+    text-align-last: inherit;
+}
+
