@@ -2,6 +2,7 @@
 body{
     
     font-family: sans-serif;
+    text-align: center;
 }
 h1{
     color: aliceblue;
@@ -22,5 +23,5 @@ h3{
 }
 a{
     text-align-last: inherit;
-}
 
+}
