@@ -60,14 +60,14 @@
 body{padding:50px 400px;}
 form{background-color:#e57e50;padding:15px;border-radius:5px;}
 legend{color:#622d00;}
-lable{display:inline-block;width:150px;text-align:left;font-size:13px;}
+lable{display:inline-block;width:170px;text-align:left;font-size:13px;}
 input,select,textarea{padding:5px;border-radius:5px;margin-top:5px;font-family:sans-serif;
 font-size:14px;}
 aradio{font-size:13px;}
 select,textarea{width:175px}
 </style>
 
-                   <form>
+                   <form action="action page.php" method="POST">
                    <h1>window</h1>
 
                    <fieldset>
@@ -85,9 +85,39 @@ select,textarea{width:175px}
                    <input type="radio"name="gender"value="male">male
                    <input type="radio"name="gender"value="female>female">male
                    </div>
+                   <div>
+                       <label>your poem:</label>
+                       <select name="poem">
+                           <option value="നിലാവ്"selected>നിലാവ്</option>
+                           <option value="അക്ഷര൦">അക്ഷര൦</option>
+                           <option value="അമ്മ">അമ്മ</option>
+                       </select>
+                   </div>
+                   <div>
+                       <label>your number</label>
+                       <input style="width:175px;" type="number"name="quantity"min="1"max="10">
+
+                   </div>
+
+                   <div>
+                       <label>message:</label>
+                       <textarea name="message">thi is the default text</textarea>
+                   </div>
+                   
+                       <div>
+                           <label>email:</label>
+                           <input type="email" name="user-email">
+                       </div>
+                       
+                
 
 
                    </fieldset>
+
+                   <div>
+                       <input type="submit"value="submit">
+                       <input type="reset">
+                   </div>
                    </form>
             
 
