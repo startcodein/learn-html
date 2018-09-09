@@ -1,28 +1,27 @@
-
-body{
-    
-    font-family: sans-serif;
-    text-align: center;
-}
-h1{
-    color: rgb(39, 78, 4);
-    font-size: 40px;
-
-}
-p{
-    font-size: 20px;
-}
-h2{
-    color:aliceblue;
-    background-color: #617700;
-}
-h3{
-    color: aliceblue;
-    background-color: #617700;
-
-}
-a{
-    text-align-last: inherit;
-
+body {
+  font-family: sans-serif;
+  text-align: center;
 }
 
+h1 {
+  color: rgb(39, 78, 4);
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  color:aliceblue;
+  background-color: #617700;
+}
+
+h3 {
+  color: aliceblue;
+  background-color: #617700;
+}
+
+a {
+  text-align-last: inherit;
+}
